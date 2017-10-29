@@ -1,0 +1,36 @@
+.activeTodo{
+    color:blue;
+    font-size:30px;
+}
+.completeTodo{
+    font-size:30px;
+    color:green;
+
+}
+.deleteTodo{
+    font-size:30px;
+    color:red;
+    text-decoration: line-through;
+}
+.container{
+    background-color: coral;
+    border-radius: 25px;
+}
+.btn btn-success{
+    margin-right: 5px;
+}
+#delButton{
+    margin-right:5px;
+}
+
+.myFocus {
+    outline: 3px solid black;
+    margin-bottom: 6px;
+}
+
+#cmpButton{
+    margin-right: 5px;
+}
+#activeButton{
+    margin-right: 5px;
+}

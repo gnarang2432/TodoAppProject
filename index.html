@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    <!--<script src="/script.js" type="text/javascript"></script>-->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row top-buffer">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="welll">
+                <div class="todoHead" text-center>
+                    <h1>My Todo List</h1>
+                </div>
+                <div class="addTodo">
+                    <input type="text" class="form-control" id="inp" placeholder="Add Todo Item...">
+                    <br>
+                    <span class="input-group-btn">
+                    <button class="btn btn-secondary" type="button" id="btn">Add Todo</button>
+                    </span>
+                </div>
+                <br>
+                <div class="well well-sm">
+                    Active Todos
+                </div>
+                <div id="activetodos">
+                </div>
+                <br>
+                <div class="well well-sm">
+                    Completed Todos
+                </div>
+                <div id="completetodos" class="heading">
+
+                </div>
+                <br>
+                <div class="well well-sm">
+                    Deleted Todos
+                </div>
+
+                <div id="deletetodos">
+
+                </div>
+                <script src="app.js"></script>
+                <script src="userinput.js"></script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
