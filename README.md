@@ -25,7 +25,7 @@ npm install
 ```
 
 ## Live Demo
-Here is the live demo for project *[TodoApp](todoapp-gauravnarang.bitballoon.com)
+Here is the live demo for project * [TodoApp](todoapp-gauravnarang.bitballoon.com)
 
 ## Author
-*[Gaurav Narang](https://github.com/gnarang2432)
+* [Gaurav Narang](https://github.com/gnarang2432)
